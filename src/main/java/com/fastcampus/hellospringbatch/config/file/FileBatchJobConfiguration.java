@@ -25,8 +25,8 @@ import java.math.BigDecimal;
 @Configuration
 @RequiredArgsConstructor
 public class FileBatchJobConfiguration {
-    public static final int CHUNK_SIZE = 2;
-    public static final int ADD_PRICE = 1000;
+    public static final int CHUNK_SIZE = 3;
+    public static final int ADD_PRICE = 2000;
     private final JobBuilderFactory jobBuilderFactory;
     private final StepBuilderFactory stepBuilderFactory;
     private static final String JOB_NAME = "fileJob";

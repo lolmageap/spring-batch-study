@@ -6,7 +6,7 @@ import org.springframework.batch.item.ItemProcessor;
 @Slf4j
 public class CustomerItemProcessor implements ItemProcessor<Customer, Customer> {
 
-    public static final int ADD_NEW_AGE = 10;
+    public static final int ADD_NEW_AGE = 12;
 
     @Override
     public Customer process(Customer customer) throws Exception {
